@@ -1,7 +1,5 @@
 import React from "react";
 
-import banner from '../../assets/images/signupbanner.jpeg'
-
 import banner2 from '../../assets/images/signupbanner.jpg'
 
 const Background:React.FC = () =>{
