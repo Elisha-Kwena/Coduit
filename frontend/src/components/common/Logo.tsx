@@ -10,7 +10,7 @@ const Logo:React.FC =()=>{
         <>
         <Link to={routes.landingPage()} className='flex items-center justify-center gap-1'>
             <img src={logo} alt="" className='w-8 h-8 lg:w-10 lg:h-10'/>
-            <h1 className="text-2xl lg:text-4xl text-sapphire font-extrabold font-impact">Coduit</h1>
+            <h1 className="text-2xl lg:text-4xl text-sapphire font-extrabold font-['impact']">Coduit</h1>
         </Link>
         </>
     )

@@ -56,7 +56,7 @@ const Register: React.FC = () => {
   return (
     <div className="h-screen flex items-center justify-center relative z-50">
       <Background/>
-      <div className="main-div relative w-full lg:w-[90%] mx-auto h-[100%] py-2 z-50 flex flex-col-reverse lg:flex-row items-center justify-between">
+      <div className="main-div relative w-full lg:w-[90%] mx-auto py-2 z-50 flex flex-col-reverse lg:flex-row items-center justify-between">
         <div className="w-full h-full lg:w-1/2 flex-col itesm-start justify-center">
          
         </div>
@@ -188,7 +188,7 @@ const Register: React.FC = () => {
 
               <div className="w-full flex items-center justify-between gap-2">
                 <span className="bg-chrome w-1/3 p-[1px] rounded-full"></span>
-                <div className="text-white font-fira-code text-[12px]">or continue with</div>
+                <div className="text-white font-fira-code text-[10px] lg:text-[12px]">or continue with</div>
                 <span className="bg-chrome w-1/3 p-[1px] rounded-full"></span>
               </div>
 
@@ -196,11 +196,11 @@ const Register: React.FC = () => {
                 <div className="w-full flex items-center justify-between gap-2">
                   <Link to="" className='flex items-center justify-start gap-2 p-2 rounded-md bg-white'>
                   <img src={github} alt="" className='w-8 h-8 rounded-full object-contain'/>
-                  <div className="text-midnight font-bold">Signup with Github</div>
+                  <p className="text-midnight font-bold text-sm">Signup with Github</p>
                   </Link>
                   <Link to="" className='flex items-center justify-start gap-2 p-2 rounded-md bg-white'>
                   <img src={discord} alt="" className='w-8 h-8 rounded-full object-contain'/>
-                  <div className="text-midnight font-bold">Signup with Discord</div>
+                  <p className="text-midnight font-bold text-sm">Signup with Discord</p>
                   </Link>
                 </div>
                 <div className="w-full">

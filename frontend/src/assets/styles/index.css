@@ -10,24 +10,8 @@
   --fashion_pink: theme('colors.fashion_pink');
   --orangered: theme('colors.orangered');
 }
-@font-face{
-  font-family:'Impact';
-  src: url('/fonts/Impact.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face{
-  font-family:'Impacted';
-  src: url('/fonts/Impacted.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face{
-  font-family:'UnicodeImpact';
-  src: url('/fonts/UnicodeImpact.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+/* In your main CSS file */
+
 
 @font-face {
   font-family: 'AltarGothicDemo';

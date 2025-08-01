@@ -16,6 +16,8 @@ const AppLayout:React.FC = () => {
     ROUTE_PATHS.login,
     ROUTE_PATHS.login,
     ROUTE_PATHS.register,
+    ROUTE_PATHS.VerifyEmail,
+    ROUTE_PATHS.VerifyEmailSent
   ];
   return (
     <>

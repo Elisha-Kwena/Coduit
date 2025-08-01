@@ -7,7 +7,7 @@ import { ROUTE_PATHS } from './constants';
  * @returns The generated route path
  */
 export const generateRoute = (route: keyof typeof ROUTE_PATHS, params?: Record<string, string | number>): string => {
-  let path = ROUTE_PATHS[route];
+  let path: string = ROUTE_PATHS[route];
   
   if (params) {
     Object.entries(params).forEach(([key, value]) => {
@@ -52,4 +52,8 @@ export const routes = {
   register: () => getRoutePath('register'),
   home: () => getRoutePath('home'),
   landingPage: () => getRoutePath('landingPage'),
+  verifyemail: () => getRoutePath('VerifyEmail'),
+  verifyemailsent: () => getRoutePath('VerifyEmailSent'),
+  passwordReset: () => getRoutePath('passwordReset'),
+  passwordResetConfirm: () => getRoutePath('passwordResetConfirm')
 } as const; 

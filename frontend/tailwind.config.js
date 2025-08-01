@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   darkMode: 'class',
   content: [
@@ -134,9 +135,7 @@ export default {
         'privus': ['PrivusMedium', 'sans-serif'],
         'losttimoh-otf': ['LosttimohOTF', 'sans-serif'],
         'losttimoh-ttf': ['LosttimohTTF', 'sans-serif'],
-        'impact': ['Impact', 'sans-serif'],
-        'impacted': ['Impacted', 'sans-serif'],
-        'unicode.impact': ['UnicodeImpact', 'sans-serif'],
+        
       },
       backgroundImage:{
         'gradient-overlay': 'linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8))'

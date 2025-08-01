@@ -1,3 +1,5 @@
+
+
 // Centralized route paths for the app
 export const ROUTE_PATHS = {
   landingPage: '/',
@@ -9,6 +11,12 @@ export const ROUTE_PATHS = {
   post: '/post/:id',
   settings: '/settings',
   register: '/register',
+  VerifyEmail:'/verify-email',
+  VerifyEmailSent:'/verify-email-sent',
+
+
+  passwordReset:'/password-reset',
+  passwordResetConfirm:'/password-reset-confirm'
 } as const;
 
 // App constants

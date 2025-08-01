@@ -24,13 +24,13 @@ const Hero:React.FC =() => {
             {/* heading */}
             <div className="heading w-full">
                 <div className="flex items-end justify-start gap-1">
-                    <h1 className="text-6xl lg:text-7xl text-white font-impact">Connect</h1>
+                    <h1 className="text-6xl lg:text-7xl text-white font-['impact']">Connect</h1>
                     <span className="w-3 lg:w-4 h-3 lg:h-4 mb-1 rounded-full bg-sapphire"></span>
-                    <h1 className="text-5xl lg:text-7xl text-sapphire font-impact">Code</h1>
+                    <h1 className="text-5xl lg:text-7xl text-sapphire font-['impact']">Code</h1>
                     <span className="w-3 lg:w-4 h-3 lg:h-4 mb-1 rounded-full bg-white"></span>
                 </div>
                 <div className="flex items-end justify-start gap-1">
-                    <h1 className="text-6xl lg;text-7xl text-white font-impact">Collaborate</h1>
+                    <h1 className="text-6xl lg;text-7xl text-white font-['impact']">Collaborate</h1>
                     <span className="w-3 lg:w-4 h-3 lg:h-4 mb-1 rounded-full bg-sapphire"></span>
                 </div>
             </div>

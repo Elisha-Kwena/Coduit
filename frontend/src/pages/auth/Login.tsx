@@ -51,7 +51,7 @@ const Login: React.FC = () => {
   return (
     <div className="h-screen flex items-center justify-center relative z-50">
       <Background/>
-      <div className="main-div relative w-full lg:w-[90%] mx-auto h-[90%] z-50 flex flex-col-reverse lg:flex-row items-center justify-between">
+      <div className="main-div relative w-full lg:w-[90%] mx-auto  z-50 flex flex-col-reverse lg:flex-row items-center justify-between">
         <div className="w-full h-full lg:w-1/2 flex-col itesm-start justify-center">
          
         </div>
@@ -148,28 +148,7 @@ const Login: React.FC = () => {
                 </button>
               </div>
 
-              {/* Confirm Password */}
-              {/* <div className="input-continer w-full relative">
-                <input 
-                  name="confirmPassword"
-                  value={formData.confirmPassword}
-                  onChange={handleChange}
-                  id="confirmPassword"
-                  required
-                  type={showPassword.confirmPassword ? "text" : "password"} 
-                  className='w-full bg-white/10 rounded-md p-3 backdrop-blur-lg border border-chrome text-white'
-                />
-                <label htmlFor="confirmPassword" className='absolute translate-y-3 text-white font-bold font-fira-code left-4'>
-                  Confirm Password
-                </label>
-                <button 
-                  type="button" 
-                  className='visibility-btn absolute translate-y-3 text-white font-bold font-fira-code right-4'
-                  onClick={() => togglePasswordVisibility('confirmPassword')}
-                >
-                  {showPassword.confirmPassword ? <VisibilityOffRoundedIcon /> : <VisibilityRoundedIcon />}
-                </button>
-              </div> */}
+              <Link to={routes.passwordReset()} className='text-sapphire font-bold text-left'>Forgot Pasword</Link>
 
               {/* Submit Button */}
               <button 
@@ -183,7 +162,7 @@ const Login: React.FC = () => {
 
               <div className="w-full flex items-center justify-between gap-2">
                 <span className="bg-chrome w-1/3 p-[1px] rounded-full"></span>
-                <div className="text-white font-fira-code text-[12px]">or continue with</div>
+                <div className="text-white font-fira-code text-[11px] lg:text-[12px]">or continue with</div>
                 <span className="bg-chrome w-1/3 p-[1px] rounded-full"></span>
               </div>
 
@@ -191,11 +170,11 @@ const Login: React.FC = () => {
                 <div className="w-full flex items-center justify-between gap-2">
                   <Link to="" className='flex items-center justify-start gap-2 p-2 rounded-md bg-white'>
                   <img src={github} alt="" className='w-8 h-8 rounded-full object-contain'/>
-                  <div className="text-midnight font-bold">Login with Github</div>
+                  <p className="text-midnight font-bold text-[15px] lg:text-md">Login with Github</p>
                   </Link>
                   <Link to="" className='flex items-center justify-start gap-2 p-2 rounded-md bg-white'>
                   <img src={discord} alt="" className='w-8 h-8 rounded-full object-contain'/>
-                  <div className="text-midnight font-bold">Login with Discord</div>
+                  <p className="text-midnight font-bold text-[16px] lg:text-md">Login with Discord</p>
                   </Link>
                 </div>
                 <div className="w-full">
