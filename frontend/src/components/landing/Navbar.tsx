@@ -8,7 +8,7 @@ const Navbar:React.FC = () => {
     return(
         <>
         <header className="w-full fixed top-0 p-1 grid place-items-center z-50">
-            <nav className="flex items-center justify-between p-3 rounded-lg w-[97%] lg:w-[95%] mx-auto bg-white/4 backdrop-blur-md z-50">
+            <nav className="flex items-center justify-between p-3 rounded-lg w-[97%] lg:w-[95%] mx-auto bg-white/5 backdrop-blur-md z-50">
                 <div className="left">
                     <Logo/>
                 </div>
