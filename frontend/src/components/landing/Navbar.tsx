@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import { routes, isRouteActive } from '../../lib/routeUtils';
+import { routes,} from '../../lib/routeUtils';
 
 import Logo from '../common/Logo';
 
@@ -13,8 +13,8 @@ const Navbar:React.FC = () => {
                     <Logo/>
                 </div>
                 <div className="right">
-                    <Link to="" 
-                    className='text-white bg-sapphire p-3 px-5 rounded-md font-extrabold text-md lg:text-lg hover:bg-electric transition-all duration-300'
+                    <Link to={routes.register()} 
+                    className={`text-white bg-sapphire p-3 px-5 rounded-md font-extrabold text-md lg:text-lg hover:bg-electric transition-all duration-300 `}
                     >Get Started</Link>
                 </div>
             </nav>

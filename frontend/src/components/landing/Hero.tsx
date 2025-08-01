@@ -6,6 +6,8 @@ import { members } from "../../data/users/members";
 
 import { Vote, Comment, Repost, Bookmark } from "../ui/PostActionButtons";
 
+import { routes,} from '../../lib/routeUtils';
+
 
 import '../../assets/styles/componens/Landing.css'
 
@@ -41,7 +43,7 @@ const Hero:React.FC =() => {
                 </p>
             </div>
             <div className="w-full flex items-center justify-between lg:justify-start lg:gap-2 mt-2">
-                <Link to="" className="text-white bg-sapphire font-fira-code font-bold text-sm lg:text-lg p-3 rounded-sm border-[2px] border-sapphire hover:bg-cosmic transition-all duration-300">Join Now - It's Free</Link>
+                <Link to={routes.register()} className="text-white bg-sapphire font-fira-code font-bold text-sm lg:text-lg p-3 rounded-sm border-[2px] border-sapphire hover:bg-cosmic transition-all duration-300">Join Now - It's Free</Link>
                 <Link to="" className="border-[2px] border-white rounded-sm p-3 font-bold flex items-center justify-center gap-2 group hover:border-sapphire treansition-all duration-300">
                 <span className="w-6 h-6 rounded-full bg-white flex items-center justify-center treansition-all duration-300 group-hover:bg-sapphire"><PlayArrowIcon className="text-xl text-black treansition-all duration-300 group-hover:text-white"/></span>
                 <span className="text-white font-fira-code text-sm lg:text-lg treansition-all duration-300 group-hover:text-sapphire">Watch Demo</span>

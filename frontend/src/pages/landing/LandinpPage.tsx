@@ -13,6 +13,8 @@ import Feedback from '../../components/landing/Feedback';
 import waves from '../../components/landing/waves.svg'
 import banner from '../../assets/images/banner.png'
 
+import { routes,} from '../../lib/routeUtils';
+
 import Footer from '../../components/landing/Footer';
 const LandingPage: React.FC = () => {
     return(
@@ -46,7 +48,7 @@ const LandingPage: React.FC = () => {
                     <p className="text-chrome mt-6 text-md lg:text-xl font-fira-code text-center">Join a community of developers who are passionate about coding and building amazing things.</p>
 
                     <div className="w-full flex items-center justify-center gap-2 mt-6">
-                        <Link to="" className='bg-sapphire p-2 lg:p-3 text-white font-fira-code font-extrabold border-[2px] border-sapphire text-center text-sm lg:text-xl rounded-sm transition-all duration-300 hover:bg-transparent hover:text-sapphire hover:-translate-y-2'>Get Started Now</Link>
+                        <Link to={routes.register()} className='bg-sapphire p-2 lg:p-3 text-white font-fira-code font-extrabold border-[2px] border-sapphire text-center text-sm lg:text-xl rounded-sm transition-all duration-300 hover:bg-transparent hover:text-sapphire hover:-translate-y-2'>Get Started Now</Link>
                         <Link to="" className='bg-transparent p-2 lg:p-3 text-white font-fira-code font-extrabold border-[2px] border-white text-center text-sm lg:text-xl rounded-sm transition-all duration-300 hover:border-sapphire hover:text-sapphire hover:-translate-y-2'>Explore communities</Link>
                     </div>
                 </div>
