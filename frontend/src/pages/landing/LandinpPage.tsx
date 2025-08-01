@@ -3,6 +3,7 @@ import Navbar from '../../components/landing/Navbar';
 
 import Hero from '../../components/landing/Hero';
 import Trusted from '../../components/landing/Trusted';
+import Features from '../../components/landing/Features';
 
 const LandingPage: React.FC = () => {
     return(
@@ -17,6 +18,11 @@ const LandingPage: React.FC = () => {
             <section className="trustes w-full bg-dark800 py-10">
                 <div className="w-full lg:w-[90%] mx-auto">
                     <Trusted/>
+                </div>
+            </section>
+            <section className="features w-full bg-black p-4 lg:p-0 ">
+                <div className="w-full lg:w-[90%] mx-auto">
+                    <Features/>
                 </div>
             </section>
         </main>
